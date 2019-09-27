@@ -2,6 +2,10 @@
 该项目利用tess4j插件,实现文字识别功能,中文或复杂文字需要手动创建自己的字库;
 缺点: 很多手动操作环节;
 
+需要有一个插件支持:
+
+C:\Program Files (x86)\Tesseract-OCR\tessdata
+
 流程:
 1,首先看Mytees4jTest类
 2,查看noise包下,支持2值化和降噪(效果不是很好)
